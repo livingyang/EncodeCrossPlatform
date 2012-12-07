@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A7E09816718AD90010AE82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A7E09716718AD90010AE82 /* main.cpp */; };
+		27A7E09A16718AD90010AE82 /* EncodeCrossPlatform.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A7E09916718AD90010AE82 /* EncodeCrossPlatform.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27A7E09116718AD90010AE82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				27A7E09A16718AD90010AE82 /* EncodeCrossPlatform.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27A7E09316718AD90010AE82 /* EncodeCrossPlatform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EncodeCrossPlatform; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A7E09716718AD90010AE82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		27A7E09916718AD90010AE82 /* EncodeCrossPlatform.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EncodeCrossPlatform.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A7E09016718AD90010AE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A7E08816718AD90010AE82 = {
+			isa = PBXGroup;
+			children = (
+				27A7E09616718AD90010AE82 /* EncodeCrossPlatform */,
+				27A7E09416718AD90010AE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A7E09416718AD90010AE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A7E09316718AD90010AE82 /* EncodeCrossPlatform */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A7E09616718AD90010AE82 /* EncodeCrossPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				27A7E09716718AD90010AE82 /* main.cpp */,
+				27A7E09916718AD90010AE82 /* EncodeCrossPlatform.1 */,
+			);
+			path = EncodeCrossPlatform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A7E09216718AD90010AE82 /* EncodeCrossPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A7E09D16718AD90010AE82 /* Build configuration list for PBXNativeTarget "EncodeCrossPlatform" */;
+			buildPhases = (
+				27A7E08F16718AD90010AE82 /* Sources */,
+				27A7E09016718AD90010AE82 /* Frameworks */,
+				27A7E09116718AD90010AE82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncodeCrossPlatform;
+			productName = EncodeCrossPlatform;
+			productReference = 27A7E09316718AD90010AE82 /* EncodeCrossPlatform */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A7E08A16718AD90010AE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "中 青宝";
+			};
+			buildConfigurationList = 27A7E08D16718AD90010AE82 /* Build configuration list for PBXProject "EncodeCrossPlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A7E08816718AD90010AE82;
+			productRefGroup = 27A7E09416718AD90010AE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A7E09216718AD90010AE82 /* EncodeCrossPlatform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A7E08F16718AD90010AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A7E09816718AD90010AE82 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27A7E09B16718AD90010AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27A7E09C16718AD90010AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27A7E09E16718AD90010AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27A7E09F16718AD90010AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A7E08D16718AD90010AE82 /* Build configuration list for PBXProject "EncodeCrossPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A7E09B16718AD90010AE82 /* Debug */,
+				27A7E09C16718AD90010AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A7E09D16718AD90010AE82 /* Build configuration list for PBXNativeTarget "EncodeCrossPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A7E09E16718AD90010AE82 /* Debug */,
+				27A7E09F16718AD90010AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A7E08A16718AD90010AE82 /* Project object */;
+}
