@@ -178,6 +178,8 @@
 		27A7E09E16718AD90010AE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -185,6 +187,8 @@
 		27A7E09F16718AD90010AE82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
