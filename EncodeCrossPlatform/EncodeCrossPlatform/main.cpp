@@ -13,6 +13,9 @@ int main(int argc, const char * argv[])
 
     // insert code here...
     std::cout << "Hello, World!\n" << "中文测试1\n" << "中文测试2" << std::endl;
+
+	int x;
+	std::cin >> x;
     return 0;
 }
 
